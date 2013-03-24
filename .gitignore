@@ -1,3 +1,6 @@
+# don't upload Config files
+Config.py
+
 *.pyc[cod]
 
 # C extensions
