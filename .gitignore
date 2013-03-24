@@ -1,7 +1,7 @@
 # don't upload Config files
 Config.py
 
-*.pyc[cod]
+*.pyc
 
 # C extensions
 *.so
