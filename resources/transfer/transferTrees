@@ -1,0 +1,12 @@
+# this is an english-portuguese tree transfer file, for reordering
+# entries should look like this
+# NP(NN(enWord1) NN(enWord2)) TAB NP(NN(ptWord1) NN(ptWord2))
+#
+# trees can possibly introduce or delete nodes. mapped words are labeled with variables
+# where there are no words, e.g., genralized trees, those are indicated by a '_'
+#
+# (NP (DT:1 the) (NN:2 _)) => (NP (DT:1 _) P(de) (NN:2 _))
+
+(NP (DT:1 the) (NN:2 man)) => (NP (DT:1 il) (NN:2 hombre))
+(NP (NN:1 _) (NN:2 _)) => (NP (NN:2 _) (P de) (NN:1 _))
+(NP (DT:1 the) (NN:2 bike)) => (NP (DT:1 il) (NN:2 ciclo))

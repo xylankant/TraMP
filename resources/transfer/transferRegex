@@ -1,0 +1,9 @@
+# this is a transfer regular expression file, for matching special cases of transfer rules
+# entries should looks like this
+#
+# */N_1 (burning|detroying|loving)/GND_2 of/P */N_3 => O/P (burning|...)/GND_2 de/P */N_3 dos/P */N_1
+#
+# note that all parts that need to be mapped from English to Portuguese (e.g., that will be translated) have to be indexed by '_x', where x is a whole number
+#
+
+*/NNP_1 's/POS (burning|detroying|loving)/VBG_2 of/IN */NNP_3 => O/P */GND_2 de/P */NNP_3 dos/P */NNP_1

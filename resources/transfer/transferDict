@@ -1,0 +1,8 @@
+# this is an english-portuguese dictionary, for use in transfer
+# entries should look like this
+# enWord/enPos TAB ptWord/ptPos
+
+Nero/NNP	Nero/NNP
+burning/VBG	incêndio/GND
+Rome/NNP	Rome/NNP
+
