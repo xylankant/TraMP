@@ -1,4 +1,4 @@
 TraMP
 =====
 
-Translatin Memory Project, Translator for English to Portuguese Noun Phrases
+Translation Memory Project, Translator for English to Portuguese Noun Phrases
